@@ -5,7 +5,7 @@
     "frcYear": "2024",
     "uuid": "5fb45ca2-bd45-4047-b2b3-d8c1af5c3251",
     "mavenUrls": [
-        "https://realmpan.github.io/testHost/repos/releases"
+        "https://realmpan.github.io/testHost/testHost/repos/releases"
     ],
     "jsonUrl": "https://realmpan.github.io/testHost/testHost/testHost.json",
     "javaDependencies": [
