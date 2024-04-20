@@ -7,7 +7,7 @@
     "mavenUrls": [
         "https://realmpan.github.io/testHost/bingus/repos/releases"
     ],
-    "jsonUrl": "https://realmpan.github.io/testHost/testHost/testHost.json",
+    "jsonUrl": "https://realmpan.github.io/testHost/bingus/testHost.json",
     "javaDependencies": [
         {
             "groupId": "com.testHost",
