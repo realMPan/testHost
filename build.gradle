@@ -60,6 +60,7 @@ model {
           }
         }
       }
+
       nativeUtils.useRequiredLibrary(it, 'wpilib_shared')
     }
   }
