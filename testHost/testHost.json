@@ -1,0 +1,21 @@
+{
+    "fileName": "testHost.json",
+    "name": "testHost",
+    "version": "0.0.1",
+    "frcYear": "2024",
+    "uuid": "5fb45ca2-bd45-4047-b2b3-d8c1af5c3251",
+    "mavenUrls": [
+        "https://realmpan.github.io/testHost/"
+    ],
+    "jsonUrl": "https://realmpan.github.io/testHost/testHost/testHost.json",
+    "javaDependencies": [
+        {
+            "groupId": "com.testHost",
+            "artifactId": "testHost-java",
+            "version": "0.0.1"
+        }
+    ],
+
+    "jniDependencies": [],
+    "cppDependencies": []
+}
