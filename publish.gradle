@@ -75,12 +75,10 @@ task cppSourceZip(type: Zip) {
     }
 }
 
-
 build.dependsOn cppHeadersZip
 addTaskToCopyAllOutputs(cppHeadersZip)
 build.dependsOn cppSourceZip
 addTaskToCopyAllOutputs(cppSourceZip)
-
 
 task sourcesJar(type: Jar, dependsOn: classes) {
     archiveClassifier = 'sources'
@@ -151,7 +149,7 @@ model {
     publishing {
         def taskList = createComponentZipTasks($.components, ['testHost'], zipBaseName, Zip, project, includeStandardZipFormat)
 
-     
+
         publications {
             cpp(MavenPublication) {
                 taskList.each {
@@ -164,6 +162,7 @@ model {
                 groupId artifactGroupId
                 version pubVersion
             }
+
             java(MavenPublication) {
                 artifact jar
                 artifact sourcesJar
